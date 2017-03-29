@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #workwrap {	
-	background: url(../img/work.jpg) no-repeat center top;
+	/*background: url(../img/work.jpg) no-repeat center top;*/
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -182,12 +182,34 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.nochebuena-work { /*modified, override workwrap*/
+	background: url(../img/films-screenshots/screen1.png) no-repeat center top;
+}
+
+.dedodespreekt-work{
+
+}
+
+.florinda-work{
+
+}
+
+
 #workwrap h1 {
 	color:#ffffff;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
 	font-size: 80px; /*modified*/
+	font-weight: bold;
+}
+
+.countryYear { /*from h1 modified*/
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 30px; /*modified*/
 	font-weight: bold;
 }
 
@@ -216,9 +238,6 @@ h1, h2, h3, h4, h5, h6 {
     -o-background-size: cover;
     background-size: cover;
 }
-
-
-
 
 /* Gallery */
 .gallery {
