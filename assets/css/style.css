@@ -186,12 +186,12 @@ h1, h2, h3, h4, h5, h6 {
 	background: url(../img/films-screenshots/screen1.png) no-repeat center top;
 }
 
-.dedodespreekt-work{
-	background: url(../img/films-screenshots/main2.png) no-repeat center top;
+.dedodespreekt-work{ /*modified, override workwrap*/
+	background: url(../img/films-screenshots/main3.png) no-repeat center top;
 }
 
-.florinda-work{
-	background: url(../img/films-screenshots/main3.png) no-repeat center top;
+.florinda-work{ /*modified, override workwrap*/
+	background: url(../img/films-screenshots/main2.png) no-repeat center top;
 }
 
 
