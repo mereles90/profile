@@ -252,3 +252,16 @@ h1, h2, h3, h4, h5, h6 {
 	height: 46px;
 	width: 46px;
 }
+
+.credits{ /*modified*/
+	display: inline-block;
+}
+
+.cat{ /*modified*/
+	float:left;
+	font-weight: bold;
+}
+
+.catVal{ /*modified*/
+	float: right;
+}
